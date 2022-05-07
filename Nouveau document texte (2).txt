@@ -1,0 +1,31 @@
+finding significant variable 
+
+input layer --> hiden layer --> output layer--> weight an bais --> activation function --> loss function
+
+**neuron is input point 
+
+**layer is storing the at particular neuron befoor parsing it to the next layer
+each neauron is mathemtical opperation that takes its input multiplies it by the weight assosiated with the input  and 
+passes the sum through the activation function to the other neuron
+
+
+**activation function 
+it is normalizing the computed input to produce an output
+
+**feedforward neural network 
+the weight are taken randomly and the output is calculated using the activation function
+
+add an       add weight      add an       calculate the       predict the 
+input   -->    and       --> output  -->  weighted sum  -->   output using    
+layer         bais           layer        of inputs         activation function
+ 
+
+**backpropagation
+is the process wher eweight are updated to minimize the calculated error
+
+calculate     use gradient     update     update      do this for
+  the     -->   descent    --> weight  --> bais   --> n iteration
+ error         algorithm                              for accurency
+
+**error 
+is the theffrence betwin the pridected output and the real output
